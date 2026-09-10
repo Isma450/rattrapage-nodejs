@@ -13,7 +13,7 @@ export function validateBook(req, res, next) {
     errors.push('author est requis');
   }
 
-  if (!stock) {
+  if (stock === undefined || stock === null) {
     errors.push('stock est requis');
   }
 
