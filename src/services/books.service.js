@@ -35,7 +35,7 @@ export async function listAvailableBooks() {
 export async function getBookById(id) {
   const books = await loadBooks();
 
-  return books.find((book) => book.id === id);
+  return books.find((book) => book.id === Number(id));
 }
 
 /**
