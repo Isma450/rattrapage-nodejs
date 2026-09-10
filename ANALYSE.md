@@ -1,5 +1,9 @@
 # Analyse des bugs
 
+# Petit Info :
+
+- **commit sur le repo d'origine** : je n'est pas pu commit sur votre repo faute de permission vous m'avez pas ajouter dans les collab du projet dans github, donc j'ai créer un fork et j'ouvre une pull request vers votre repo
+
 ## Bug 1
 
 - **Fichier :** `src/app.js`, ligne 14.
