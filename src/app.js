@@ -11,10 +11,10 @@ export function createApp() {
     res.json({ status: 'ok' });
   });
 
+  app.use(express.json());
+
   app.use('/api/books', booksRouter);
   app.use('/api/loans', loansRouter);
-
-  app.use(express.json());
 
   app.use(notFound);
   app.use(errorHandler);
