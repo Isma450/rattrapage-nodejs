@@ -46,7 +46,7 @@ export async function createBook(payload) {
   const books = await loadBooks();
 
   const book = {
-    id: books.length + 1,
+    id: Math.max(...books.map((item) => item.id)) + 1,
     title: payload.title,
     author: payload.author,
     stock: payload.stock,
