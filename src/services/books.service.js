@@ -14,7 +14,7 @@ export async function listBooks({ page, limit, q }) {
 
   const total = result.length;
   const offset = (page - 1) * limit;
-  const items = result.splice(offset, limit);
+  const items = result.slice(offset, offset + limit);
 
   return { page, limit, total, items };
 }
