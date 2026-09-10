@@ -23,7 +23,7 @@ export async function listBooks({ page, limit, q }) {
  * Retourne uniquement les livres encore disponibles a l'emprunt.
  */
 export async function listAvailableBooks() {
-  const books = loadBooks();
+  const books = await loadBooks();
 
   return books.filter((book) => book.stock > 0);
 }
