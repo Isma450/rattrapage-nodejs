@@ -12,12 +12,6 @@
     "stock": 2
   },
   {
-    "id": 3,
-    "title": "Voyage au bout de la nuit",
-    "author": "Louis-Ferdinand Celine",
-    "stock": 0
-  },
-  {
     "id": 4,
     "title": "Les Miserables",
     "author": "Victor Hugo",
@@ -32,6 +26,24 @@
   {
     "id": 6,
     "title": "Germinal",
+    "author": "Emile Zola",
+    "stock": 2
+  },
+  {
+    "id": 7,
+    "title": "ismail",
+    "author": "ismail bouloukt",
+    "stock": 0
+  },
+  {
+    "id": 8,
+    "title": "Fleuris",
+    "author": "Egbou mewe",
+    "stock": 2
+  },
+  {
+    "id": 9,
+    "title": "Nana",
     "author": "Emile Zola",
     "stock": 2
   }
